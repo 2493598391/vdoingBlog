@@ -13,12 +13,12 @@ cd docs/.vuepress/dist
 #echo 'b.miluluyo.github.io' > CNAME
 if [ -z "$VDOING" ]; then
   msg='deploy'
-  githubUrl=git@github.com:miluluyo/vdoingBlog.git
+  githubUrl=git@github.com:2493598391/2493598391.github.io.git
 else
   msg='来自 github actions的自动部署'
-  githubUrl=https://miluluyo:${VDOING}@github.com/miluluyo/vdoingBlog.git
-  git config --global user.name "miluluyo"
-  git config --global user.email "miluluyo@163.com"
+  githubUrl=https://2493598391:${VDOING}@github.com/2493598391/2493598391.github.io.git
+  git config --global user.name "2493598391"
+  git config --global user.email "2493598391@qq.com"
 fi
 git init
 git add -A
