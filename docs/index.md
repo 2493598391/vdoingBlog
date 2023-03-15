@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: 麋鹿鲁哟
+heroText: 三维体
 tagline: 运气交给锦鲤，你只管努力就好。
 # actionText: 立刻进入 →
 # actionLink: /web/
