@@ -20,6 +20,11 @@ features: # 可选的
     details: 题目及答案总结等
     link: /interview/
     imgUrl: /img/3.png
+  - title: 嵌入式
+    details: 嵌入式文档、教程、技巧、总结等文章
+    link: /qianrushi/
+    imgUrl: /img/2.png
+    
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 # postList: detailed

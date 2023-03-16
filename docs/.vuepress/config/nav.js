@@ -99,5 +99,12 @@ module.exports = [
       {text: '标签', link: '/tags/'},
       {text: '归档', link: '/archives/'},
     ]
+  },
+  {
+    text: '嵌入式',
+    link: '/qianrushi/',
+    items: [
+      {text: '嵌入式面试', link: '/pages/712c43/'},
+    ]
   }
 ]
