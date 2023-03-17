@@ -1,29 +1,24 @@
 module.exports = [
   {text: '首页', link: '/'},
   {
-    text: '前端',
-    link: '/web/',  //目录页，vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+    text: '嵌入式',
+    link: '/qianrushi/',
     items: [
-      {text: '前端文章', items: [
-        {text: 'JavaScript', link: '/pages/8143cc480faf9a11/'}, // 注意link结尾有斜杠和没有斜杠的区别
-        {text: 'Vue', link: '/pages/802a1ca6f7b71c59/'},
-      ]},
-      {text: '学习笔记', items:[
-        {text: '《JavaScript教程》笔记', link: '/note/javascript/'},
-        {text: '《ES6 教程》笔记', link: '/note/es6/'},
-        {text: '《Vue》笔记', link: '/note/vue/'},
-        {text: '《TypeScript 从零实现 axios》', link: '/note/typescript-axios/'},
-        {text: '小程序笔记', link: '/note/wx-miniprogram/'},
-        {text: 'JavaScript 基础', link: '/note/javascriptbasics/'}
-      ]}
+      {text: '嵌入式面试', link: '/pages/712c43/'},
+      {text: 'C语言', link: '/pages/0cc422/'},
+      {text: 'Linux', link: '/pages/40f439/'},
     ]
   },
   {
-    text: '页面', 
-    link: '/ui/',
+    text: '笔记',
+    link: '/biji/',
     items: [
-      {text: 'HTML', link: '/pages/8309a5b876fc95e3/'},
-      {text: 'CSS', link: '/pages/0a83b083bdf257cb/'},
+      {text: '文档笔记', items: [
+        {text: '文档笔记', link: '/pages/623ef4/'},
+      ]},
+      {text: '学习笔记', items: [
+        {text: '《git》学习笔记', link: '/note/git/'}
+      ]}
     ]
   },
   {
@@ -98,13 +93,6 @@ module.exports = [
       {text: '分类', link: '/categories/'},
       {text: '标签', link: '/tags/'},
       {text: '归档', link: '/archives/'},
-    ]
-  },
-  {
-    text: '嵌入式',
-    link: '/qianrushi/',
-    items: [
-      {text: '嵌入式面试', link: '/pages/712c43/'},
     ]
   }
 ]
